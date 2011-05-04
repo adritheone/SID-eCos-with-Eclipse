@@ -1,0 +1,42 @@
+
+# Copied from 'makefile' in the "install" tree
+
+export HOST := UNIX
+export PREFIX := /home/adrian/_ETSIT-UPM/BECA-SimAntares/ecos/arm-pid_uartIO/arm_pid_uart_install/
+export COMMAND_PREFIX := arm-none-eabi-
+export CC := $(COMMAND_PREFIX)gcc
+export OBJCOPY := $(COMMAND_PREFIX)objcopy
+export AR := $(COMMAND_PREFIX)ar
+
+#
+# Target specific flags, etc.
+#
+
+ECOS_GLOBAL_CFLAGS = -Wall -Wpointer-arith -Wstrict-prototypes -Wundef -Woverloaded-virtual -Wno-write-strings -mno-thumb-interwork -mcpu=arm7tdmi -g -O2 -ffunction-sections -fdata-sections -fno-rtti -fno-exceptions
+ECOS_GLOBAL_LDFLAGS = -mno-thumb-interwork -mcpu=arm7tdmi -g -nostdlib -Wl,--gc-sections -Wl,-static
+ECOS_COMMAND_PREFIX = arm-eabi-
+
+#
+# Modify CFLAGS to match newer compilers
+#
+ACTUAL_CFLAGS = $(ECOS_GLOBAL_CFLAGS)
+ACTUAL_CXXFLAGS = $(ECOS_GLOBAL_CFLAGS)
+ACTUAL_LDFLAGS = $(ECOS_GLOBAL_LDFLAGS)
+
+# GCC since 2.95 does -finit-priority by default so remove it from old HALs
+ACTUAL_CFLAGS := $(subst -finit-priority,,$(ACTUAL_CFLAGS))
+
+# -fvtable-gc is known to be broken in all recent GCC.
+ACTUAL_CFLAGS := $(subst -fvtable-gc,,$(ACTUAL_CFLAGS))
+
+# Expand inline functions
+ACTUAL_CFLAGS := -finline-limit=7000 $(ACTUAL_CFLAGS)
+
+# Separate C++ flags out from C flags.
+ACTUAL_CFLAGS := $(subst -fno-rtti,,$(ACTUAL_CFLAGS))
+ACTUAL_CFLAGS := $(subst -frtti,,$(ACTUAL_CFLAGS))
+ACTUAL_CFLAGS := $(subst -Woverloaded-virtual,,$(ACTUAL_CFLAGS))
+ACTUAL_CFLAGS := $(subst -fvtable-gc,,$(ACTUAL_CFLAGS))
+
+ACTUAL_CXXFLAGS := $(subst -Wstrict-prototypes,,$(ACTUAL_CXXFLAGS))
+
