@@ -1,0 +1,3 @@
+
+
+arm-elf-sid --board=pid7t -EL $@
