@@ -1,0 +1,36 @@
+reg_divide.lo: reg_divide.c exception.h fpu_emu.h \
+ ../../../../.././sid/component/bochs/cpu/fpu/stubs/asm/types.h \
+ fpu_system.h ../../config.h \
+ ../../../../.././sid/component/bochs/cpu/fpu/stubs/linux/kernel.h \
+ ../../../../.././sid/component/bochs/cpu/fpu/stubs/linux/mm.h \
+ ../../../../.././sid/component/bochs/cpu/fpu/stubs/asm/math_emu.h \
+ ../../../../.././sid/component/bochs/cpu/fpu/stubs/linux/types.h \
+ ../../../../.././sid/component/bochs/cpu/fpu/stubs/asm/sigcontext.h \
+ ../../../../.././sid/component/bochs/cpu/fpu/stubs/linux/linkage.h \
+ fpu_proto.h reg_constant.h
+
+exception.h:
+
+fpu_emu.h:
+
+../../../../.././sid/component/bochs/cpu/fpu/stubs/asm/types.h:
+
+fpu_system.h:
+
+../../config.h:
+
+../../../../.././sid/component/bochs/cpu/fpu/stubs/linux/kernel.h:
+
+../../../../.././sid/component/bochs/cpu/fpu/stubs/linux/mm.h:
+
+../../../../.././sid/component/bochs/cpu/fpu/stubs/asm/math_emu.h:
+
+../../../../.././sid/component/bochs/cpu/fpu/stubs/linux/types.h:
+
+../../../../.././sid/component/bochs/cpu/fpu/stubs/asm/sigcontext.h:
+
+../../../../.././sid/component/bochs/cpu/fpu/stubs/linux/linkage.h:
+
+fpu_proto.h:
+
+reg_constant.h:

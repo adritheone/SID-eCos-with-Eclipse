@@ -1,0 +1,242 @@
+# This file is a shell script that caches the results of configure
+# tests run on this system so they can be shared between configure
+# scripts and configure runs, see configure's option --config-cache.
+# It is not useful on other systems.  If it contains results you don't
+# want to keep, you may remove or edit it.
+#
+# config.status only pays attention to the cache file if you give it
+# the --recheck option to rerun configure.
+#
+# `ac_cv_env_foo' variables (set or unset) will be overridden when
+# loading this file, other *unset* `ac_cv_foo' will be assigned the
+# following values.
+
+ac_cv_build=${ac_cv_build=i686-pc-linux-gnu}
+ac_cv_build_alias=${ac_cv_build_alias=i686-pc-linux-gnu}
+ac_cv_c_bigendian=${ac_cv_c_bigendian=no}
+ac_cv_c_compiler_gnu=${ac_cv_c_compiler_gnu=yes}
+ac_cv_c_const=${ac_cv_c_const=yes}
+ac_cv_c_inline=${ac_cv_c_inline=inline}
+ac_cv_cxx_compiler_gnu=${ac_cv_cxx_compiler_gnu=yes}
+ac_cv_decl_ftime=${ac_cv_decl_ftime=yes}
+ac_cv_decl_socklen_t=${ac_cv_decl_socklen_t=yes}
+ac_cv_decl_usleep=${ac_cv_decl_usleep=yes}
+ac_cv_env_CCC_set=
+ac_cv_env_CCC_value=
+ac_cv_env_CC_set=set
+ac_cv_env_CC_value=gcc
+ac_cv_env_CFLAGS_set=set
+ac_cv_env_CFLAGS_value='-g -O2'
+ac_cv_env_CPPFLAGS_set=
+ac_cv_env_CPPFLAGS_value=
+ac_cv_env_CPP_set=
+ac_cv_env_CPP_value=
+ac_cv_env_CXXCPP_set=
+ac_cv_env_CXXCPP_value=
+ac_cv_env_CXXFLAGS_set=set
+ac_cv_env_CXXFLAGS_value='-g -O2'
+ac_cv_env_CXX_set=set
+ac_cv_env_CXX_value=g++
+ac_cv_env_F77_set=
+ac_cv_env_F77_value=
+ac_cv_env_FFLAGS_set=
+ac_cv_env_FFLAGS_value=
+ac_cv_env_LDFLAGS_set=set
+ac_cv_env_LDFLAGS_value=' '
+ac_cv_env_LIBS_set=
+ac_cv_env_LIBS_value=
+ac_cv_env_XMKMF_set=
+ac_cv_env_XMKMF_value=
+ac_cv_env_build_alias_set=set
+ac_cv_env_build_alias_value=i686-pc-linux-gnu
+ac_cv_env_host_alias_set=set
+ac_cv_env_host_alias_value=i686-pc-linux-gnu
+ac_cv_env_target_alias_set=set
+ac_cv_env_target_alias_value=i686-pc-linux-gnu
+ac_cv_exeext=${ac_cv_exeext=}
+ac_cv_f77_compiler_gnu=${ac_cv_f77_compiler_gnu=no}
+ac_cv_func_argz_append=${ac_cv_func_argz_append=yes}
+ac_cv_func_argz_create_sep=${ac_cv_func_argz_create_sep=yes}
+ac_cv_func_argz_insert=${ac_cv_func_argz_insert=yes}
+ac_cv_func_argz_next=${ac_cv_func_argz_next=yes}
+ac_cv_func_argz_stringify=${ac_cv_func_argz_stringify=yes}
+ac_cv_func_closedir=${ac_cv_func_closedir=yes}
+ac_cv_func_connect=${ac_cv_func_connect=yes}
+ac_cv_func_ctime=${ac_cv_func_ctime=yes}
+ac_cv_func_cygwin_conv_to_full_posix_path=${ac_cv_func_cygwin_conv_to_full_posix_path=no}
+ac_cv_func_dlerror=${ac_cv_func_dlerror=yes}
+ac_cv_func_dlopen=${ac_cv_func_dlopen=no}
+ac_cv_func_ftime=${ac_cv_func_ftime=yes}
+ac_cv_func_gethostbyname=${ac_cv_func_gethostbyname=yes}
+ac_cv_func_getopt=${ac_cv_func_getopt=yes}
+ac_cv_func_gettimeofday=${ac_cv_func_gettimeofday=yes}
+ac_cv_func_inet_addr=${ac_cv_func_inet_addr=yes}
+ac_cv_func_inet_aton=${ac_cv_func_inet_aton=yes}
+ac_cv_func_memcpy=${ac_cv_func_memcpy=yes}
+ac_cv_func_memmove=${ac_cv_func_memmove=yes}
+ac_cv_func_opendir=${ac_cv_func_opendir=yes}
+ac_cv_func_readdir=${ac_cv_func_readdir=yes}
+ac_cv_func_remove=${ac_cv_func_remove=yes}
+ac_cv_func_sched_yield=${ac_cv_func_sched_yield=yes}
+ac_cv_func_select=${ac_cv_func_select=yes}
+ac_cv_func_shl_load=${ac_cv_func_shl_load=no}
+ac_cv_func_shmat=${ac_cv_func_shmat=yes}
+ac_cv_func_snprintf=${ac_cv_func_snprintf=yes}
+ac_cv_func_strchr=${ac_cv_func_strchr=yes}
+ac_cv_func_strcmp=${ac_cv_func_strcmp=yes}
+ac_cv_func_strdup=${ac_cv_func_strdup=yes}
+ac_cv_func_strerror=${ac_cv_func_strerror=yes}
+ac_cv_func_strrchr=${ac_cv_func_strrchr=yes}
+ac_cv_func_strtoul=${ac_cv_func_strtoul=yes}
+ac_cv_func_strtoull=${ac_cv_func_strtoull=yes}
+ac_cv_func_strtouq=${ac_cv_func_strtouq=yes}
+ac_cv_func_times=${ac_cv_func_times=yes}
+ac_cv_func_usleep=${ac_cv_func_usleep=yes}
+ac_cv_func_vasprintf=${ac_cv_func_vasprintf=yes}
+ac_cv_func_vsnprintf=${ac_cv_func_vsnprintf=yes}
+ac_cv_have_x=${ac_cv_have_x='have_x=yes	ac_x_includes='\'''\''	ac_x_libraries='\'''\'''}
+ac_cv_header_X11_Xos_h=${ac_cv_header_X11_Xos_h=yes}
+ac_cv_header____ucbinclude_sys_ioctl_h=${ac_cv_header____ucbinclude_sys_ioctl_h=no}
+ac_cv_header__usr_include_curses_h=${ac_cv_header__usr_include_curses_h=no}
+ac_cv_header_argz_h=${ac_cv_header_argz_h=yes}
+ac_cv_header_arpa_inet_h=${ac_cv_header_arpa_inet_h=yes}
+ac_cv_header_assert_h=${ac_cv_header_assert_h=yes}
+ac_cv_header_blt_h=${ac_cv_header_blt_h=no}
+ac_cv_header_ctype_h=${ac_cv_header_ctype_h=yes}
+ac_cv_header_curses_h=${ac_cv_header_curses_h=no}
+ac_cv_header_dirent_dirent_h=${ac_cv_header_dirent_dirent_h=yes}
+ac_cv_header_dirent_h=${ac_cv_header_dirent_h=yes}
+ac_cv_header_dl_h=${ac_cv_header_dl_h=no}
+ac_cv_header_dld_h=${ac_cv_header_dld_h=no}
+ac_cv_header_dlfcn_h=${ac_cv_header_dlfcn_h=yes}
+ac_cv_header_errno_h=${ac_cv_header_errno_h=yes}
+ac_cv_header_getopt_h=${ac_cv_header_getopt_h=yes}
+ac_cv_header_inttypes_h=${ac_cv_header_inttypes_h=yes}
+ac_cv_header_mach_o_dyld_h=${ac_cv_header_mach_o_dyld_h=no}
+ac_cv_header_malloc_h=${ac_cv_header_malloc_h=yes}
+ac_cv_header_memory_h=${ac_cv_header_memory_h=yes}
+ac_cv_header_mmsystem_h=${ac_cv_header_mmsystem_h=no}
+ac_cv_header_netinet_in_h=${ac_cv_header_netinet_in_h=yes}
+ac_cv_header_netinet_tcp_h=${ac_cv_header_netinet_tcp_h=yes}
+ac_cv_header_readline_history_h=${ac_cv_header_readline_history_h=no}
+ac_cv_header_sched_h=${ac_cv_header_sched_h=yes}
+ac_cv_header_sstream=${ac_cv_header_sstream=yes}
+ac_cv_header_stdc=${ac_cv_header_stdc=yes}
+ac_cv_header_stdint_h=${ac_cv_header_stdint_h=yes}
+ac_cv_header_stdio_h=${ac_cv_header_stdio_h=yes}
+ac_cv_header_stdlib_h=${ac_cv_header_stdlib_h=yes}
+ac_cv_header_string_h=${ac_cv_header_string_h=yes}
+ac_cv_header_strings_h=${ac_cv_header_strings_h=yes}
+ac_cv_header_strstream_h=${ac_cv_header_strstream_h=no}
+ac_cv_header_sys_dl_h=${ac_cv_header_sys_dl_h=no}
+ac_cv_header_sys_ioctl_h=${ac_cv_header_sys_ioctl_h=yes}
+ac_cv_header_sys_socket_h=${ac_cv_header_sys_socket_h=yes}
+ac_cv_header_sys_soundcard_h=${ac_cv_header_sys_soundcard_h=yes}
+ac_cv_header_sys_stat_h=${ac_cv_header_sys_stat_h=yes}
+ac_cv_header_sys_time_h=${ac_cv_header_sys_time_h=yes}
+ac_cv_header_sys_timeb_h=${ac_cv_header_sys_timeb_h=yes}
+ac_cv_header_sys_types_h=${ac_cv_header_sys_types_h=yes}
+ac_cv_header_tcl_h=${ac_cv_header_tcl_h=yes}
+ac_cv_header_time=${ac_cv_header_time=yes}
+ac_cv_header_time_h=${ac_cv_header_time_h=yes}
+ac_cv_header_tk_h=${ac_cv_header_tk_h=yes}
+ac_cv_header_unistd_h=${ac_cv_header_unistd_h=yes}
+ac_cv_header_windows_h=${ac_cv_header_windows_h=no}
+ac_cv_host=${ac_cv_host=i686-pc-linux-gnu}
+ac_cv_host_alias=${ac_cv_host_alias=i686-pc-linux-gnu}
+ac_cv_lib_ICE_IceConnectionNumber=${ac_cv_lib_ICE_IceConnectionNumber=yes}
+ac_cv_lib_X11_XOpenDisplay=${ac_cv_lib_X11_XOpenDisplay=yes}
+ac_cv_lib_curses_refresh=${ac_cv_lib_curses_refresh=no}
+ac_cv_lib_dl_dlopen=${ac_cv_lib_dl_dlopen=yes}
+ac_cv_lib_dld_shl_load=${ac_cv_lib_dld_shl_load=no}
+ac_cv_lib_kernel32_main=${ac_cv_lib_kernel32_main=no}
+ac_cv_lib_m_main=${ac_cv_lib_m_main=yes}
+ac_cv_lib_ncurses_refresh=${ac_cv_lib_ncurses_refresh=no}
+ac_cv_lib_nsl_gethostbyname=${ac_cv_lib_nsl_gethostbyname=yes}
+ac_cv_lib_pthread_pthread_create=${ac_cv_lib_pthread_pthread_create=yes}
+ac_cv_lib_readline_readline=${ac_cv_lib_readline_readline=no}
+ac_cv_lib_socket_connect=${ac_cv_lib_socket_connect=no}
+ac_cv_lib_stdcpp_main=${ac_cv_lib_stdcpp_main=yes}
+ac_cv_lib_winmm_main=${ac_cv_lib_winmm_main=no}
+ac_cv_libstdcxx_shared=${ac_cv_libstdcxx_shared=yes}
+ac_cv_objext=${ac_cv_objext=o}
+ac_cv_path_EGREP=${ac_cv_path_EGREP='/bin/grep -E'}
+ac_cv_path_GREP=${ac_cv_path_GREP=/bin/grep}
+ac_cv_path_GZIP=${ac_cv_path_GZIP=/bin/gzip}
+ac_cv_path_TAR=${ac_cv_path_TAR=/bin/tar}
+ac_cv_path_mkdir=${ac_cv_path_mkdir=/bin/mkdir}
+ac_cv_prog_AR=${ac_cv_prog_AR=ar}
+ac_cv_prog_AWK=${ac_cv_prog_AWK=mawk}
+ac_cv_prog_CC=${ac_cv_prog_CC=gcc}
+ac_cv_prog_CPP=${ac_cv_prog_CPP='gcc -E'}
+ac_cv_prog_CXX=${ac_cv_prog_CXX=g++}
+ac_cv_prog_CXXCPP=${ac_cv_prog_CXXCPP='g++ -E'}
+ac_cv_prog_LINKS=${ac_cv_prog_LINKS=false}
+ac_cv_prog_RANLIB=${ac_cv_prog_RANLIB=ranlib}
+ac_cv_prog_SABLOTRON=${ac_cv_prog_SABLOTRON=false}
+ac_cv_prog_XSLTPROC=${ac_cv_prog_XSLTPROC=true}
+ac_cv_prog_ac_ct_STRIP=${ac_cv_prog_ac_ct_STRIP=strip}
+ac_cv_prog_cc_c89=${ac_cv_prog_cc_c89=}
+ac_cv_prog_cc_g=${ac_cv_prog_cc_g=yes}
+ac_cv_prog_cc_stdc=${ac_cv_prog_cc_stdc=}
+ac_cv_prog_cxx_g=${ac_cv_prog_cxx_g=yes}
+ac_cv_prog_egrep=${ac_cv_prog_egrep='grep -E'}
+ac_cv_prog_f77_g=${ac_cv_prog_f77_g=no}
+ac_cv_prog_make_make_set=${ac_cv_prog_make_make_set=yes}
+ac_cv_search_opendir=${ac_cv_search_opendir='none required'}
+ac_cv_sizeof_int_p=${ac_cv_sizeof_int_p=4}
+ac_cv_sizeof_unsigned_char=${ac_cv_sizeof_unsigned_char=1}
+ac_cv_sizeof_unsigned_int=${ac_cv_sizeof_unsigned_int=4}
+ac_cv_sizeof_unsigned_long=${ac_cv_sizeof_unsigned_long=4}
+ac_cv_sizeof_unsigned_long_long=${ac_cv_sizeof_unsigned_long_long=8}
+ac_cv_sizeof_unsigned_short=${ac_cv_sizeof_unsigned_short=2}
+ac_cv_sys_symbol_underscore=${ac_cv_sys_symbol_underscore=no}
+ac_cv_type_error_t=${ac_cv_type_error_t=yes}
+ac_cv_type_int_p=${ac_cv_type_int_p=yes}
+ac_cv_type_unsigned_char=${ac_cv_type_unsigned_char=yes}
+ac_cv_type_unsigned_int=${ac_cv_type_unsigned_int=yes}
+ac_cv_type_unsigned_long=${ac_cv_type_unsigned_long=yes}
+ac_cv_type_unsigned_long_long=${ac_cv_type_unsigned_long_long=yes}
+ac_cv_type_unsigned_short=${ac_cv_type_unsigned_short=yes}
+am_cv_CC_dependencies_compiler_type=${am_cv_CC_dependencies_compiler_type=gcc3}
+am_cv_CXX_dependencies_compiler_type=${am_cv_CXX_dependencies_compiler_type=gcc3}
+gcc_cv_have_decl_asprintf=${gcc_cv_have_decl_asprintf=yes}
+gcc_cv_have_decl_basename=${gcc_cv_have_decl_basename=yes}
+gcc_cv_have_decl_getopt=${gcc_cv_have_decl_getopt=no}
+gcc_cv_have_decl_vasprintf=${gcc_cv_have_decl_vasprintf=yes}
+libltdl_cv_lib_dl_dlopen=${libltdl_cv_lib_dl_dlopen=yes}
+libltdl_cv_objdir=${libltdl_cv_objdir=.libs}
+libltdl_cv_preloaded_symbols=${libltdl_cv_preloaded_symbols=yes}
+libltdl_cv_shlibext=${libltdl_cv_shlibext=.so}
+libltdl_cv_shlibpath_var=${libltdl_cv_shlibpath_var=LD_LIBRARY_PATH}
+libltdl_cv_sys_dlopen_deplibs=${libltdl_cv_sys_dlopen_deplibs=yes}
+libltdl_cv_sys_search_path=${libltdl_cv_sys_search_path='/lib /usr/lib /usr/lib/nvidia-current /lib/i386-linux-gnu /usr/lib/i386-linux-gnu /lib/i686-linux-gnu /usr/lib/i686-linux-gnu /usr/lib/alsa-lib /usr/local/lib /opt/prueba_sid/lib/libhexkeyboard.la '}
+lt_cv_deplibs_check_method=${lt_cv_deplibs_check_method=pass_all}
+lt_cv_dlopen=${lt_cv_dlopen=dlopen}
+lt_cv_dlopen_libs=${lt_cv_dlopen_libs=-ldl}
+lt_cv_dlopen_self=${lt_cv_dlopen_self=yes}
+lt_cv_dlopen_self_static=${lt_cv_dlopen_self_static=yes}
+lt_cv_file_magic_cmd=${lt_cv_file_magic_cmd='$MAGIC_CMD'}
+lt_cv_file_magic_test_file=${lt_cv_file_magic_test_file=}
+lt_cv_ld_reload_flag=${lt_cv_ld_reload_flag=-r}
+lt_cv_objdir=${lt_cv_objdir=.libs}
+lt_cv_path_LD=${lt_cv_path_LD=ld}
+lt_cv_path_LDCXX=${lt_cv_path_LDCXX=ld}
+lt_cv_path_NM=${lt_cv_path_NM=nm}
+lt_cv_path_SED=${lt_cv_path_SED=/bin/sed}
+lt_cv_prog_compiler_c_o=${lt_cv_prog_compiler_c_o=yes}
+lt_cv_prog_compiler_c_o_CXX=${lt_cv_prog_compiler_c_o_CXX=yes}
+lt_cv_prog_compiler_rtti_exceptions=${lt_cv_prog_compiler_rtti_exceptions=no}
+lt_cv_prog_gnu_ld=${lt_cv_prog_gnu_ld=yes}
+lt_cv_prog_gnu_ldcxx=${lt_cv_prog_gnu_ldcxx=yes}
+lt_cv_sys_global_symbol_pipe=${lt_cv_sys_global_symbol_pipe='sed -n -e '\''s/^.*[ 	]\([ABCDGIRSTW][ABCDGIRSTW]*\)[ 	][ 	]*\([_A-Za-z][_A-Za-z0-9]*\)$/\1 \2 \2/p'\'''}
+test "${lt_cv_sys_global_symbol_to_c_name_address+set}" = set || lt_cv_sys_global_symbol_to_c_name_address='sed -n -e '\''s/^: \([^ ]*\) $/  {\"\1\", (lt_ptr) 0},/p'\'' -e '\''s/^[BCDEGRST] \([^ ]*\) \([^ ]*\)$/  {"\2", (lt_ptr) \&\2},/p'\'''
+lt_cv_sys_global_symbol_to_cdecl=${lt_cv_sys_global_symbol_to_cdecl='sed -n -e '\''s/^. .* \(.*\)$/extern int \1;/p'\'''}
+lt_cv_sys_max_cmd_len=${lt_cv_sys_max_cmd_len=32768}
+lt_lt_cv_prog_compiler_c_o=${lt_lt_cv_prog_compiler_c_o='"yes"'}
+lt_lt_cv_prog_compiler_c_o_CXX=${lt_lt_cv_prog_compiler_c_o_CXX='"yes"'}
+lt_lt_cv_sys_global_symbol_pipe=${lt_lt_cv_sys_global_symbol_pipe='"sed -n -e '\''s/^.*[ 	]\\([ABCDGIRSTW][ABCDGIRSTW]*\\)[ 	][ 	]*\\([_A-Za-z][_A-Za-z0-9]*\\)\$/\\1 \\2 \\2/p'\''"'}
+test "${lt_lt_cv_sys_global_symbol_to_c_name_address+set}" = set || lt_lt_cv_sys_global_symbol_to_c_name_address='"sed -n -e '\''s/^: \\([^ ]*\\) \$/  {\\\"\\1\\\", (lt_ptr) 0},/p'\'' -e '\''s/^[BCDEGRST] \\([^ ]*\\) \\([^ ]*\\)\$/  {\"\\2\", (lt_ptr) \\&\\2},/p'\''"'
+lt_lt_cv_sys_global_symbol_to_cdecl=${lt_lt_cv_sys_global_symbol_to_cdecl='"sed -n -e '\''s/^. .* \\(.*\\)\$/extern int \\1;/p'\''"'}
+sid_cv_builtin_expect=${sid_cv_builtin_expect=yes}
+sid_cv_cctype_std=${sid_cv_cctype_std=yes}

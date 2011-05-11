@@ -1,0 +1,93 @@
+errors.lo: errors.c \
+ ../../../../.././sid/component/bochs/cpu/fpu/stubs/linux/signal.h \
+ ../../../../.././sid/component/bochs/cpu/fpu/stubs/asm/uaccess.h \
+ /usr/include/stdio.h /usr/include/features.h /usr/include/bits/predefs.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
+ /usr/lib/i386-linux-gnu/gcc/i686-linux-gnu/4.5.2/include/stddef.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/i386-linux-gnu/gcc/i686-linux-gnu/4.5.2/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h /usr/include/bits/stdio2.h fpu_emu.h \
+ ../../../../.././sid/component/bochs/cpu/fpu/stubs/asm/types.h \
+ fpu_system.h ../../config.h \
+ ../../../../.././sid/component/bochs/cpu/fpu/stubs/linux/kernel.h \
+ ../../../../.././sid/component/bochs/cpu/fpu/stubs/linux/mm.h \
+ ../../../../.././sid/component/bochs/cpu/fpu/stubs/asm/math_emu.h \
+ ../../../../.././sid/component/bochs/cpu/fpu/stubs/linux/types.h \
+ ../../../../.././sid/component/bochs/cpu/fpu/stubs/asm/sigcontext.h \
+ ../../../../.././sid/component/bochs/cpu/fpu/stubs/linux/linkage.h \
+ fpu_proto.h exception.h status_w.h control_w.h reg_constant.h version.h
+
+../../../../.././sid/component/bochs/cpu/fpu/stubs/linux/signal.h:
+
+../../../../.././sid/component/bochs/cpu/fpu/stubs/asm/uaccess.h:
+
+/usr/include/stdio.h:
+
+/usr/include/features.h:
+
+/usr/include/bits/predefs.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-32.h:
+
+/usr/lib/i386-linux-gnu/gcc/i686-linux-gnu/4.5.2/include/stddef.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/lib/i386-linux-gnu/gcc/i686-linux-gnu/4.5.2/include/stdarg.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+/usr/include/bits/stdio2.h:
+
+fpu_emu.h:
+
+../../../../.././sid/component/bochs/cpu/fpu/stubs/asm/types.h:
+
+fpu_system.h:
+
+../../config.h:
+
+../../../../.././sid/component/bochs/cpu/fpu/stubs/linux/kernel.h:
+
+../../../../.././sid/component/bochs/cpu/fpu/stubs/linux/mm.h:
+
+../../../../.././sid/component/bochs/cpu/fpu/stubs/asm/math_emu.h:
+
+../../../../.././sid/component/bochs/cpu/fpu/stubs/linux/types.h:
+
+../../../../.././sid/component/bochs/cpu/fpu/stubs/asm/sigcontext.h:
+
+../../../../.././sid/component/bochs/cpu/fpu/stubs/linux/linkage.h:
+
+fpu_proto.h:
+
+exception.h:
+
+status_w.h:
+
+control_w.h:
+
+reg_constant.h:
+
+version.h:
