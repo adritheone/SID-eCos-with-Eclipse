@@ -1,0 +1,15 @@
+HOWTO COMPILE SID
+--Move to src directory
+$cd src
+--Configure and install
+$./configure --prefix=/path_to_instalation/
+$make
+$sudo make install
+
+--You may have to remake and reinstall tk component (sometimes it does not install correctly form src directory
+$cd src/sid/component/tk
+$make
+$sudo make install
+
+--You may also have to ./configure first in src/tk directory BEFORE executing ./configure in /src directory
+

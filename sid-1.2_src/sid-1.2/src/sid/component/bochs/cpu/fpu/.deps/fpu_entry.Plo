@@ -1,0 +1,46 @@
+fpu_entry.lo: fpu_entry.c fpu_system.h ../../config.h \
+ ../../../../.././sid/component/bochs/cpu/fpu/stubs/linux/kernel.h \
+ ../../../../.././sid/component/bochs/cpu/fpu/stubs/linux/mm.h \
+ ../../../../.././sid/component/bochs/cpu/fpu/stubs/asm/math_emu.h \
+ ../../../../.././sid/component/bochs/cpu/fpu/stubs/linux/types.h \
+ fpu_emu.h ../../../../.././sid/component/bochs/cpu/fpu/stubs/asm/types.h \
+ ../../../../.././sid/component/bochs/cpu/fpu/stubs/asm/sigcontext.h \
+ ../../../../.././sid/component/bochs/cpu/fpu/stubs/linux/linkage.h \
+ fpu_proto.h exception.h control_w.h status_w.h \
+ ../../../../.././sid/component/bochs/cpu/fpu/stubs/linux/signal.h \
+ ../../../../.././sid/component/bochs/cpu/fpu/stubs/asm/uaccess.h \
+ ../../../../.././sid/component/bochs/cpu/fpu/stubs/asm/desc.h
+
+fpu_system.h:
+
+../../config.h:
+
+../../../../.././sid/component/bochs/cpu/fpu/stubs/linux/kernel.h:
+
+../../../../.././sid/component/bochs/cpu/fpu/stubs/linux/mm.h:
+
+../../../../.././sid/component/bochs/cpu/fpu/stubs/asm/math_emu.h:
+
+../../../../.././sid/component/bochs/cpu/fpu/stubs/linux/types.h:
+
+fpu_emu.h:
+
+../../../../.././sid/component/bochs/cpu/fpu/stubs/asm/types.h:
+
+../../../../.././sid/component/bochs/cpu/fpu/stubs/asm/sigcontext.h:
+
+../../../../.././sid/component/bochs/cpu/fpu/stubs/linux/linkage.h:
+
+fpu_proto.h:
+
+exception.h:
+
+control_w.h:
+
+status_w.h:
+
+../../../../.././sid/component/bochs/cpu/fpu/stubs/linux/signal.h:
+
+../../../../.././sid/component/bochs/cpu/fpu/stubs/asm/uaccess.h:
+
+../../../../.././sid/component/bochs/cpu/fpu/stubs/asm/desc.h:

@@ -1,0 +1,908 @@
+compCGEN.lo: compCGEN.cxx config.h ../tconfig.h \
+ /usr/include/c++/4.5/vector /usr/include/c++/4.5/bits/stl_algobase.h \
+ /usr/include/c++/4.5/i686-linux-gnu/bits/c++config.h \
+ /usr/include/c++/4.5/i686-linux-gnu/bits/os_defines.h \
+ /usr/include/features.h /usr/include/bits/predefs.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
+ /usr/include/c++/4.5/i686-linux-gnu/bits/cpu_defines.h \
+ /usr/include/c++/4.5/cstddef \
+ /usr/lib/i386-linux-gnu/gcc/i686-linux-gnu/4.5.2/include/stddef.h \
+ /usr/include/c++/4.5/bits/functexcept.h \
+ /usr/include/c++/4.5/exception_defines.h \
+ /usr/include/c++/4.5/bits/cpp_type_traits.h \
+ /usr/include/c++/4.5/ext/type_traits.h \
+ /usr/include/c++/4.5/ext/numeric_traits.h \
+ /usr/include/c++/4.5/bits/stl_pair.h /usr/include/c++/4.5/bits/move.h \
+ /usr/include/c++/4.5/bits/concept_check.h \
+ /usr/include/c++/4.5/bits/stl_iterator_base_types.h \
+ /usr/include/c++/4.5/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/4.5/bits/stl_iterator.h \
+ /usr/include/c++/4.5/debug/debug.h /usr/include/c++/4.5/bits/allocator.h \
+ /usr/include/c++/4.5/i686-linux-gnu/bits/c++allocator.h \
+ /usr/include/c++/4.5/ext/new_allocator.h /usr/include/c++/4.5/new \
+ /usr/include/c++/4.5/exception /usr/include/c++/4.5/bits/stl_construct.h \
+ /usr/include/c++/4.5/bits/stl_uninitialized.h \
+ /usr/include/c++/4.5/bits/stl_vector.h \
+ /usr/include/c++/4.5/initializer_list \
+ /usr/include/c++/4.5/bits/stl_bvector.h \
+ /usr/include/c++/4.5/bits/vector.tcc /usr/include/c++/4.5/string \
+ /usr/include/c++/4.5/bits/stringfwd.h \
+ /usr/include/c++/4.5/bits/char_traits.h \
+ /usr/include/c++/4.5/bits/postypes.h /usr/include/c++/4.5/cwchar \
+ /usr/include/wchar.h /usr/include/stdio.h \
+ /usr/lib/i386-linux-gnu/gcc/i686-linux-gnu/4.5.2/include/stdarg.h \
+ /usr/include/bits/wchar.h /usr/include/xlocale.h \
+ /usr/include/bits/wchar2.h /usr/include/c++/4.5/bits/localefwd.h \
+ /usr/include/c++/4.5/i686-linux-gnu/bits/c++locale.h \
+ /usr/include/c++/4.5/clocale /usr/include/locale.h \
+ /usr/include/bits/locale.h /usr/include/c++/4.5/iosfwd \
+ /usr/include/c++/4.5/cctype /usr/include/ctype.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/c++/4.5/bits/ostream_insert.h \
+ /usr/include/c++/4.5/cxxabi-forced.h \
+ /usr/include/c++/4.5/bits/stl_function.h \
+ /usr/include/c++/4.5/backward/binders.h \
+ /usr/include/c++/4.5/bits/basic_string.h \
+ /usr/include/c++/4.5/ext/atomicity.h \
+ /usr/include/c++/4.5/i686-linux-gnu/bits/gthr.h \
+ /usr/include/c++/4.5/i686-linux-gnu/bits/gthr-default.h \
+ /usr/include/pthread.h /usr/include/sched.h /usr/include/time.h \
+ /usr/include/bits/sched.h /usr/include/bits/time.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/bits/setjmp.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/environments.h /usr/include/bits/confname.h \
+ ../../.././sid/component/cgen-cpu/../../../include/getopt.h \
+ /usr/include/bits/unistd.h \
+ /usr/include/c++/4.5/i686-linux-gnu/bits/atomic_word.h \
+ /usr/include/c++/4.5/bits/basic_string.tcc \
+ /usr/include/c++/4.5/algorithm /usr/include/c++/4.5/utility \
+ /usr/include/c++/4.5/bits/stl_relops.h \
+ /usr/include/c++/4.5/bits/stl_algo.h /usr/include/c++/4.5/cstdlib \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/sys/types.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/sys/sysmacros.h \
+ /usr/include/alloca.h /usr/include/bits/stdlib.h \
+ /usr/include/c++/4.5/bits/algorithmfwd.h \
+ /usr/include/c++/4.5/bits/stl_heap.h \
+ /usr/include/c++/4.5/bits/stl_tempbuf.h /usr/include/c++/4.5/functional \
+ cgen-cpu.h ../../include/sidcomp.h ../../include/sidtypes.h \
+ /usr/include/c++/4.5/iostream /usr/include/c++/4.5/ostream \
+ /usr/include/c++/4.5/ios /usr/include/c++/4.5/bits/ios_base.h \
+ /usr/include/c++/4.5/bits/locale_classes.h \
+ /usr/include/c++/4.5/bits/locale_classes.tcc \
+ /usr/include/c++/4.5/streambuf /usr/include/c++/4.5/bits/streambuf.tcc \
+ /usr/include/c++/4.5/bits/basic_ios.h \
+ /usr/include/c++/4.5/bits/locale_facets.h /usr/include/c++/4.5/cwctype \
+ /usr/include/wctype.h \
+ /usr/include/c++/4.5/i686-linux-gnu/bits/ctype_base.h \
+ /usr/include/c++/4.5/bits/streambuf_iterator.h \
+ /usr/include/c++/4.5/i686-linux-gnu/bits/ctype_inline.h \
+ /usr/include/c++/4.5/bits/locale_facets.tcc \
+ /usr/include/c++/4.5/bits/basic_ios.tcc \
+ /usr/include/c++/4.5/bits/ostream.tcc /usr/include/c++/4.5/istream \
+ /usr/include/c++/4.5/bits/istream.tcc /usr/include/c++/4.5/iomanip \
+ /usr/include/c++/4.5/cassert /usr/include/assert.h ../../include/sidso.h \
+ ../../include/sidcomputil.h ../../include/sidconfig.h \
+ ../../include/sidconfutil.h /usr/include/c++/4.5/map \
+ /usr/include/c++/4.5/bits/stl_tree.h /usr/include/c++/4.5/bits/stl_map.h \
+ /usr/include/c++/4.5/bits/stl_multimap.h ../../include/sidattrutil.h \
+ ../../include/sidpinutil.h ../../include/sidtypes.h \
+ /usr/include/c++/4.5/typeinfo \
+ /usr/lib/i386-linux-gnu/gcc/i686-linux-gnu/4.5.2/include-fixed/limits.h \
+ /usr/lib/i386-linux-gnu/gcc/i686-linux-gnu/4.5.2/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
+ /usr/include/bits/stdio_lim.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h /usr/include/bits/stdio2.h \
+ /usr/include/c++/4.5/sstream /usr/include/c++/4.5/bits/sstream.tcc \
+ ../../include/sidmiscutil.h /usr/include/c++/4.5/fstream \
+ /usr/include/c++/4.5/bits/codecvt.h /usr/include/c++/4.5/cstdio \
+ /usr/include/c++/4.5/i686-linux-gnu/bits/basic_file.h \
+ /usr/include/c++/4.5/i686-linux-gnu/bits/c++io.h \
+ /usr/include/c++/4.5/bits/fstream.tcc /usr/include/c++/4.5/cerrno \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/i386-linux-gnu/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/c++/4.5/cstring /usr/include/string.h \
+ /usr/include/bits/string3.h ../../include/sidbusutil.h \
+ ../../include/sidschedutil.h ../../include/sidblockingutil.h \
+ ../../include/sidcpuutil.h ../../include/sidwatchutil.h \
+ ../../include/sidpinattrutil.h cgen-types.h cgen-ops.h cgen-engine.h \
+ ../../../bfd/bfd.h \
+ ../../.././sid/component/cgen-cpu/../../../include/ansidecl.h \
+ ../../.././sid/component/cgen-cpu/../../../include/symcat.h \
+ ../../.././sid/component/cgen-cpu/../../../include/dis-asm.h \
+ ../../.././sid/component/cgen-cpu/../../../include/cgen/bitset.h \
+ /usr/include/c++/4.5/ctime tracedis.h \
+ ../../.././sid/component/cgen-cpu/arm7t/arm7f.h cgen-cpu.h \
+ ../../.././sid/component/cgen-cpu/arm7t/arm-desc.h \
+ ../../.././sid/component/cgen-cpu/arm7t/arm-decode.h \
+ ../../.././sid/component/cgen-cpu/arm7t/thumb-decode.h \
+ ../../.././sid/component/cgen-cpu/arm7t/arm-cpu.h \
+ ../../.././sid/component/cgen-cpu/m32r/m32rbf.h \
+ ../../.././sid/component/cgen-cpu/m32r/m32r-desc.h \
+ ../../.././sid/component/cgen-cpu/m32r/m32r-defs.h \
+ ../../.././sid/component/cgen-cpu/m32r/m32r-decode.h \
+ ../../.././sid/component/cgen-cpu/m32r/m32r-cpu.h \
+ ../../.././sid/component/cgen-cpu/mep/mep_basic.h \
+ ../../.././sid/component/cgen-cpu/mep/mep.h \
+ ../../.././sid/component/cgen-cpu/mep/mep-desc.h \
+ ../../.././sid/component/cgen-cpu/mep/mep-cpu.h \
+ ../../.././sid/component/cgen-cpu/mep/ivc2-cpu.h \
+ ../../.././sid/component/cgen-cpu/mep/mep-defs.h \
+ ../../.././sid/component/cgen-cpu/mep/mep-decode.h \
+ ../../.././sid/component/cgen-cpu/mep/mep-model.h cgen-model.h \
+ cgen-cpu.h ../../.././sid/component/cgen-cpu/mep/common_model.h \
+ cgen-types.h ../../.././sid/component/cgen-cpu/mep/mep_ext1.h \
+ ../../.././sid/component/cgen-cpu/mep/mep-core1-defs.h \
+ ../../.././sid/component/cgen-cpu/mep/mep-core1-decode.h \
+ ../../.././sid/component/cgen-cpu/mep/mep-core1-model.h \
+ ../../.././sid/component/cgen-cpu/mep/mep-cop1-16-defs.h \
+ ../../.././sid/component/cgen-cpu/mep/mep-cop1-16-decode.h \
+ ../../.././sid/component/cgen-cpu/mep/mep-cop1-16-model.h \
+ ../../.././sid/component/cgen-cpu/mep/mep-cop1-32-defs.h \
+ ../../.././sid/component/cgen-cpu/mep/mep-cop1-32-decode.h \
+ ../../.././sid/component/cgen-cpu/mep/mep-cop1-32-model.h \
+ ../../.././sid/component/cgen-cpu/mep/mep-cop1-48-defs.h \
+ ../../.././sid/component/cgen-cpu/mep/mep-cop1-48-decode.h \
+ ../../.././sid/component/cgen-cpu/mep/mep-cop1-48-model.h \
+ ../../.././sid/component/cgen-cpu/mep/mep-cop1-64-defs.h \
+ ../../.././sid/component/cgen-cpu/mep/mep-cop1-64-decode.h \
+ ../../.././sid/component/cgen-cpu/mep/mep-cop1-64-model.h \
+ ../../.././sid/component/cgen-cpu/mep/ivc2.h \
+ ../../.././sid/component/cgen-cpu/mt/mt.h \
+ ../../.././sid/component/cgen-cpu/mt/mt-desc.h \
+ ../../.././sid/component/cgen-cpu/mt/mt-defs.h \
+ /usr/include/c++/4.5/stack /usr/include/c++/4.5/deque \
+ /usr/include/c++/4.5/bits/stl_deque.h \
+ /usr/include/c++/4.5/bits/deque.tcc \
+ /usr/include/c++/4.5/bits/stl_stack.h \
+ ../../.././sid/component/cgen-cpu/mt/mt-decode.h \
+ ../../.././sid/component/cgen-cpu/mt/mt-cpu.h \
+ ../../.././sid/component/cgen-cpu/sh/sh2.h \
+ ../../.././sid/component/cgen-cpu/sh/sh_compact.h \
+ ../../.././sid/component/cgen-cpu/sh/sh.h \
+ ../../.././sid/component/cgen-cpu/sh/sh-desc.h cgen-fpu.h fp.h \
+ cgen-types.h ../../.././sid/component/cgen-cpu/sh/sh2-defs.h \
+ ../../.././sid/component/cgen-cpu/sh/sh2-decode.h \
+ ../../.././sid/component/cgen-cpu/sh/sh2-model.h \
+ ../../.././sid/component/cgen-cpu/sh/sh2e-defs.h \
+ ../../.././sid/component/cgen-cpu/sh/sh2e-decode.h \
+ ../../.././sid/component/cgen-cpu/sh/sh2e-model.h \
+ ../../.././sid/component/cgen-cpu/sh/sh2a-fpu-defs.h \
+ ../../.././sid/component/cgen-cpu/sh/sh2a-fpu-decode.h \
+ ../../.././sid/component/cgen-cpu/sh/sh2a-fpu-model.h \
+ ../../.././sid/component/cgen-cpu/sh/sh2a-nofpu-defs.h \
+ ../../.././sid/component/cgen-cpu/sh/sh2a-nofpu-decode.h \
+ ../../.././sid/component/cgen-cpu/sh/sh2a-nofpu-model.h \
+ ../../.././sid/component/cgen-cpu/sh/sh3-defs.h \
+ ../../.././sid/component/cgen-cpu/sh/sh3-decode.h \
+ ../../.././sid/component/cgen-cpu/sh/sh3-model.h \
+ ../../.././sid/component/cgen-cpu/sh/sh3e-defs.h \
+ ../../.././sid/component/cgen-cpu/sh/sh3e-decode.h \
+ ../../.././sid/component/cgen-cpu/sh/sh3e-model.h \
+ ../../.././sid/component/cgen-cpu/sh/sh4-defs.h \
+ ../../.././sid/component/cgen-cpu/sh/sh4-decode.h \
+ ../../.././sid/component/cgen-cpu/sh/sh4-model.h \
+ ../../.././sid/component/cgen-cpu/sh/sh4-nofpu-defs.h \
+ ../../.././sid/component/cgen-cpu/sh/sh4-nofpu-decode.h \
+ ../../.././sid/component/cgen-cpu/sh/sh4-nofpu-model.h \
+ ../../.././sid/component/cgen-cpu/sh/sh4a-defs.h \
+ ../../.././sid/component/cgen-cpu/sh/sh4a-decode.h \
+ ../../.././sid/component/cgen-cpu/sh/sh4a-model.h \
+ ../../.././sid/component/cgen-cpu/sh/sh4a-nofpu-defs.h \
+ ../../.././sid/component/cgen-cpu/sh/sh4a-nofpu-decode.h \
+ ../../.././sid/component/cgen-cpu/sh/sh4a-nofpu-model.h \
+ ../../.././sid/component/cgen-cpu/sh/sh4al-defs.h \
+ ../../.././sid/component/cgen-cpu/sh/sh4al-decode.h \
+ ../../.././sid/component/cgen-cpu/sh/sh4al-model.h \
+ ../../.././sid/component/cgen-cpu/sh/sh5-compact-defs.h \
+ ../../.././sid/component/cgen-cpu/sh/sh5-compact-decode.h \
+ ../../.././sid/component/cgen-cpu/sh/sh5-compact-model.h \
+ ../../.././sid/component/cgen-cpu/sh/sh5-media-defs.h \
+ ../../.././sid/component/cgen-cpu/sh/sh5-media-decode.h \
+ ../../.././sid/component/cgen-cpu/sh/sh5-media-model.h \
+ ../../.././sid/component/cgen-cpu/../../../include/elf/sh.h \
+ ../../.././sid/component/cgen-cpu/../../../include/elf/reloc-macros.h \
+ ../../.././sid/component/cgen-cpu/sh/sh2-cpu.h \
+ ../../.././sid/component/cgen-cpu/sh/sh2e-cpu.h \
+ ../../.././sid/component/cgen-cpu/sh/sh2a-fpu-cpu.h \
+ ../../.././sid/component/cgen-cpu/sh/sh2a-nofpu-cpu.h \
+ ../../.././sid/component/cgen-cpu/sh/sh3-cpu.h \
+ ../../.././sid/component/cgen-cpu/sh/sh3e-cpu.h \
+ ../../.././sid/component/cgen-cpu/sh/sh4-nofpu-cpu.h \
+ ../../.././sid/component/cgen-cpu/sh/sh4-cpu.h \
+ ../../.././sid/component/cgen-cpu/sh/sh4a-nofpu-cpu.h \
+ ../../.././sid/component/cgen-cpu/sh/sh4a-cpu.h \
+ ../../.././sid/component/cgen-cpu/sh/sh4al-cpu.h \
+ ../../.././sid/component/cgen-cpu/sh/sh5-cpu.h \
+ ../../.././sid/component/cgen-cpu/sh/common_model.h \
+ ../../.././sid/component/cgen-cpu/sh/sh2e.h \
+ ../../.././sid/component/cgen-cpu/sh/sh2a_fpu.h \
+ ../../.././sid/component/cgen-cpu/sh/sh2a.h \
+ ../../.././sid/component/cgen-cpu/sh/sh_vliw.h \
+ ../../.././sid/component/cgen-cpu/sh/sh2a_model.h \
+ ../../.././sid/component/cgen-cpu/sh/sh2a_nofpu.h \
+ ../../.././sid/component/cgen-cpu/sh/sh3.h \
+ ../../.././sid/component/cgen-cpu/sh/sh3_model.h \
+ ../../.././sid/component/cgen-cpu/sh/sh3e.h \
+ ../../.././sid/component/cgen-cpu/sh/sh4.h \
+ ../../.././sid/component/cgen-cpu/sh/sh4_model.h \
+ ../../.././sid/component/cgen-cpu/sh/sh4_nofpu.h \
+ ../../.././sid/component/cgen-cpu/sh/sh4.h \
+ ../../.././sid/component/cgen-cpu/sh/sh4a.h \
+ ../../.././sid/component/cgen-cpu/sh/sh4a_model.h \
+ ../../.././sid/component/cgen-cpu/sh/sh4a_nofpu.h \
+ ../../.././sid/component/cgen-cpu/sh/sh4a.h \
+ ../../.././sid/component/cgen-cpu/sh/sh4al.h \
+ ../../.././sid/component/cgen-cpu/sh/sh4al_model.h \
+ ../../.././sid/component/cgen-cpu/sh/sh5.h \
+ ../../.././sid/component/cgen-cpu/sh/sh5_model.h cgen-engine.h \
+ ../../.././sid/component/cgen-cpu/xstormy16/xstormy16.h \
+ ../../.././sid/component/cgen-cpu/xstormy16/xstormy16-desc.h \
+ ../../.././sid/component/cgen-cpu/xstormy16/xstormy16-defs.h \
+ ../../.././sid/component/cgen-cpu/xstormy16/xstormy16-decode.h \
+ ../../.././sid/component/cgen-cpu/xstormy16/xstormy16-cpu.h
+
+config.h:
+
+../tconfig.h:
+
+/usr/include/c++/4.5/vector:
+
+/usr/include/c++/4.5/bits/stl_algobase.h:
+
+/usr/include/c++/4.5/i686-linux-gnu/bits/c++config.h:
+
+/usr/include/c++/4.5/i686-linux-gnu/bits/os_defines.h:
+
+/usr/include/features.h:
+
+/usr/include/bits/predefs.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-32.h:
+
+/usr/include/c++/4.5/i686-linux-gnu/bits/cpu_defines.h:
+
+/usr/include/c++/4.5/cstddef:
+
+/usr/lib/i386-linux-gnu/gcc/i686-linux-gnu/4.5.2/include/stddef.h:
+
+/usr/include/c++/4.5/bits/functexcept.h:
+
+/usr/include/c++/4.5/exception_defines.h:
+
+/usr/include/c++/4.5/bits/cpp_type_traits.h:
+
+/usr/include/c++/4.5/ext/type_traits.h:
+
+/usr/include/c++/4.5/ext/numeric_traits.h:
+
+/usr/include/c++/4.5/bits/stl_pair.h:
+
+/usr/include/c++/4.5/bits/move.h:
+
+/usr/include/c++/4.5/bits/concept_check.h:
+
+/usr/include/c++/4.5/bits/stl_iterator_base_types.h:
+
+/usr/include/c++/4.5/bits/stl_iterator_base_funcs.h:
+
+/usr/include/c++/4.5/bits/stl_iterator.h:
+
+/usr/include/c++/4.5/debug/debug.h:
+
+/usr/include/c++/4.5/bits/allocator.h:
+
+/usr/include/c++/4.5/i686-linux-gnu/bits/c++allocator.h:
+
+/usr/include/c++/4.5/ext/new_allocator.h:
+
+/usr/include/c++/4.5/new:
+
+/usr/include/c++/4.5/exception:
+
+/usr/include/c++/4.5/bits/stl_construct.h:
+
+/usr/include/c++/4.5/bits/stl_uninitialized.h:
+
+/usr/include/c++/4.5/bits/stl_vector.h:
+
+/usr/include/c++/4.5/initializer_list:
+
+/usr/include/c++/4.5/bits/stl_bvector.h:
+
+/usr/include/c++/4.5/bits/vector.tcc:
+
+/usr/include/c++/4.5/string:
+
+/usr/include/c++/4.5/bits/stringfwd.h:
+
+/usr/include/c++/4.5/bits/char_traits.h:
+
+/usr/include/c++/4.5/bits/postypes.h:
+
+/usr/include/c++/4.5/cwchar:
+
+/usr/include/wchar.h:
+
+/usr/include/stdio.h:
+
+/usr/lib/i386-linux-gnu/gcc/i686-linux-gnu/4.5.2/include/stdarg.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/bits/wchar2.h:
+
+/usr/include/c++/4.5/bits/localefwd.h:
+
+/usr/include/c++/4.5/i686-linux-gnu/bits/c++locale.h:
+
+/usr/include/c++/4.5/clocale:
+
+/usr/include/locale.h:
+
+/usr/include/bits/locale.h:
+
+/usr/include/c++/4.5/iosfwd:
+
+/usr/include/c++/4.5/cctype:
+
+/usr/include/ctype.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/c++/4.5/bits/ostream_insert.h:
+
+/usr/include/c++/4.5/cxxabi-forced.h:
+
+/usr/include/c++/4.5/bits/stl_function.h:
+
+/usr/include/c++/4.5/backward/binders.h:
+
+/usr/include/c++/4.5/bits/basic_string.h:
+
+/usr/include/c++/4.5/ext/atomicity.h:
+
+/usr/include/c++/4.5/i686-linux-gnu/bits/gthr.h:
+
+/usr/include/c++/4.5/i686-linux-gnu/bits/gthr-default.h:
+
+/usr/include/pthread.h:
+
+/usr/include/sched.h:
+
+/usr/include/time.h:
+
+/usr/include/bits/sched.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/bits/setjmp.h:
+
+/usr/include/unistd.h:
+
+/usr/include/bits/posix_opt.h:
+
+/usr/include/bits/environments.h:
+
+/usr/include/bits/confname.h:
+
+../../.././sid/component/cgen-cpu/../../../include/getopt.h:
+
+/usr/include/bits/unistd.h:
+
+/usr/include/c++/4.5/i686-linux-gnu/bits/atomic_word.h:
+
+/usr/include/c++/4.5/bits/basic_string.tcc:
+
+/usr/include/c++/4.5/algorithm:
+
+/usr/include/c++/4.5/utility:
+
+/usr/include/c++/4.5/bits/stl_relops.h:
+
+/usr/include/c++/4.5/bits/stl_algo.h:
+
+/usr/include/c++/4.5/cstdlib:
+
+/usr/include/stdlib.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/alloca.h:
+
+/usr/include/bits/stdlib.h:
+
+/usr/include/c++/4.5/bits/algorithmfwd.h:
+
+/usr/include/c++/4.5/bits/stl_heap.h:
+
+/usr/include/c++/4.5/bits/stl_tempbuf.h:
+
+/usr/include/c++/4.5/functional:
+
+cgen-cpu.h:
+
+../../include/sidcomp.h:
+
+../../include/sidtypes.h:
+
+/usr/include/c++/4.5/iostream:
+
+/usr/include/c++/4.5/ostream:
+
+/usr/include/c++/4.5/ios:
+
+/usr/include/c++/4.5/bits/ios_base.h:
+
+/usr/include/c++/4.5/bits/locale_classes.h:
+
+/usr/include/c++/4.5/bits/locale_classes.tcc:
+
+/usr/include/c++/4.5/streambuf:
+
+/usr/include/c++/4.5/bits/streambuf.tcc:
+
+/usr/include/c++/4.5/bits/basic_ios.h:
+
+/usr/include/c++/4.5/bits/locale_facets.h:
+
+/usr/include/c++/4.5/cwctype:
+
+/usr/include/wctype.h:
+
+/usr/include/c++/4.5/i686-linux-gnu/bits/ctype_base.h:
+
+/usr/include/c++/4.5/bits/streambuf_iterator.h:
+
+/usr/include/c++/4.5/i686-linux-gnu/bits/ctype_inline.h:
+
+/usr/include/c++/4.5/bits/locale_facets.tcc:
+
+/usr/include/c++/4.5/bits/basic_ios.tcc:
+
+/usr/include/c++/4.5/bits/ostream.tcc:
+
+/usr/include/c++/4.5/istream:
+
+/usr/include/c++/4.5/bits/istream.tcc:
+
+/usr/include/c++/4.5/iomanip:
+
+/usr/include/c++/4.5/cassert:
+
+/usr/include/assert.h:
+
+../../include/sidso.h:
+
+../../include/sidcomputil.h:
+
+../../include/sidconfig.h:
+
+../../include/sidconfutil.h:
+
+/usr/include/c++/4.5/map:
+
+/usr/include/c++/4.5/bits/stl_tree.h:
+
+/usr/include/c++/4.5/bits/stl_map.h:
+
+/usr/include/c++/4.5/bits/stl_multimap.h:
+
+../../include/sidattrutil.h:
+
+../../include/sidpinutil.h:
+
+../../include/sidtypes.h:
+
+/usr/include/c++/4.5/typeinfo:
+
+/usr/lib/i386-linux-gnu/gcc/i686-linux-gnu/4.5.2/include-fixed/limits.h:
+
+/usr/lib/i386-linux-gnu/gcc/i686-linux-gnu/4.5.2/include-fixed/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/bits/posix2_lim.h:
+
+/usr/include/bits/xopen_lim.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+/usr/include/bits/stdio2.h:
+
+/usr/include/c++/4.5/sstream:
+
+/usr/include/c++/4.5/bits/sstream.tcc:
+
+../../include/sidmiscutil.h:
+
+/usr/include/c++/4.5/fstream:
+
+/usr/include/c++/4.5/bits/codecvt.h:
+
+/usr/include/c++/4.5/cstdio:
+
+/usr/include/c++/4.5/i686-linux-gnu/bits/basic_file.h:
+
+/usr/include/c++/4.5/i686-linux-gnu/bits/c++io.h:
+
+/usr/include/c++/4.5/bits/fstream.tcc:
+
+/usr/include/c++/4.5/cerrno:
+
+/usr/include/errno.h:
+
+/usr/include/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/i386-linux-gnu/asm/errno.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/c++/4.5/cstring:
+
+/usr/include/string.h:
+
+/usr/include/bits/string3.h:
+
+../../include/sidbusutil.h:
+
+../../include/sidschedutil.h:
+
+../../include/sidblockingutil.h:
+
+../../include/sidcpuutil.h:
+
+../../include/sidwatchutil.h:
+
+../../include/sidpinattrutil.h:
+
+cgen-types.h:
+
+cgen-ops.h:
+
+cgen-engine.h:
+
+../../../bfd/bfd.h:
+
+../../.././sid/component/cgen-cpu/../../../include/ansidecl.h:
+
+../../.././sid/component/cgen-cpu/../../../include/symcat.h:
+
+../../.././sid/component/cgen-cpu/../../../include/dis-asm.h:
+
+../../.././sid/component/cgen-cpu/../../../include/cgen/bitset.h:
+
+/usr/include/c++/4.5/ctime:
+
+tracedis.h:
+
+../../.././sid/component/cgen-cpu/arm7t/arm7f.h:
+
+cgen-cpu.h:
+
+../../.././sid/component/cgen-cpu/arm7t/arm-desc.h:
+
+../../.././sid/component/cgen-cpu/arm7t/arm-decode.h:
+
+../../.././sid/component/cgen-cpu/arm7t/thumb-decode.h:
+
+../../.././sid/component/cgen-cpu/arm7t/arm-cpu.h:
+
+../../.././sid/component/cgen-cpu/m32r/m32rbf.h:
+
+../../.././sid/component/cgen-cpu/m32r/m32r-desc.h:
+
+../../.././sid/component/cgen-cpu/m32r/m32r-defs.h:
+
+../../.././sid/component/cgen-cpu/m32r/m32r-decode.h:
+
+../../.././sid/component/cgen-cpu/m32r/m32r-cpu.h:
+
+../../.././sid/component/cgen-cpu/mep/mep_basic.h:
+
+../../.././sid/component/cgen-cpu/mep/mep.h:
+
+../../.././sid/component/cgen-cpu/mep/mep-desc.h:
+
+../../.././sid/component/cgen-cpu/mep/mep-cpu.h:
+
+../../.././sid/component/cgen-cpu/mep/ivc2-cpu.h:
+
+../../.././sid/component/cgen-cpu/mep/mep-defs.h:
+
+../../.././sid/component/cgen-cpu/mep/mep-decode.h:
+
+../../.././sid/component/cgen-cpu/mep/mep-model.h:
+
+cgen-model.h:
+
+cgen-cpu.h:
+
+../../.././sid/component/cgen-cpu/mep/common_model.h:
+
+cgen-types.h:
+
+../../.././sid/component/cgen-cpu/mep/mep_ext1.h:
+
+../../.././sid/component/cgen-cpu/mep/mep-core1-defs.h:
+
+../../.././sid/component/cgen-cpu/mep/mep-core1-decode.h:
+
+../../.././sid/component/cgen-cpu/mep/mep-core1-model.h:
+
+../../.././sid/component/cgen-cpu/mep/mep-cop1-16-defs.h:
+
+../../.././sid/component/cgen-cpu/mep/mep-cop1-16-decode.h:
+
+../../.././sid/component/cgen-cpu/mep/mep-cop1-16-model.h:
+
+../../.././sid/component/cgen-cpu/mep/mep-cop1-32-defs.h:
+
+../../.././sid/component/cgen-cpu/mep/mep-cop1-32-decode.h:
+
+../../.././sid/component/cgen-cpu/mep/mep-cop1-32-model.h:
+
+../../.././sid/component/cgen-cpu/mep/mep-cop1-48-defs.h:
+
+../../.././sid/component/cgen-cpu/mep/mep-cop1-48-decode.h:
+
+../../.././sid/component/cgen-cpu/mep/mep-cop1-48-model.h:
+
+../../.././sid/component/cgen-cpu/mep/mep-cop1-64-defs.h:
+
+../../.././sid/component/cgen-cpu/mep/mep-cop1-64-decode.h:
+
+../../.././sid/component/cgen-cpu/mep/mep-cop1-64-model.h:
+
+../../.././sid/component/cgen-cpu/mep/ivc2.h:
+
+../../.././sid/component/cgen-cpu/mt/mt.h:
+
+../../.././sid/component/cgen-cpu/mt/mt-desc.h:
+
+../../.././sid/component/cgen-cpu/mt/mt-defs.h:
+
+/usr/include/c++/4.5/stack:
+
+/usr/include/c++/4.5/deque:
+
+/usr/include/c++/4.5/bits/stl_deque.h:
+
+/usr/include/c++/4.5/bits/deque.tcc:
+
+/usr/include/c++/4.5/bits/stl_stack.h:
+
+../../.././sid/component/cgen-cpu/mt/mt-decode.h:
+
+../../.././sid/component/cgen-cpu/mt/mt-cpu.h:
+
+../../.././sid/component/cgen-cpu/sh/sh2.h:
+
+../../.././sid/component/cgen-cpu/sh/sh_compact.h:
+
+../../.././sid/component/cgen-cpu/sh/sh.h:
+
+../../.././sid/component/cgen-cpu/sh/sh-desc.h:
+
+cgen-fpu.h:
+
+fp.h:
+
+cgen-types.h:
+
+../../.././sid/component/cgen-cpu/sh/sh2-defs.h:
+
+../../.././sid/component/cgen-cpu/sh/sh2-decode.h:
+
+../../.././sid/component/cgen-cpu/sh/sh2-model.h:
+
+../../.././sid/component/cgen-cpu/sh/sh2e-defs.h:
+
+../../.././sid/component/cgen-cpu/sh/sh2e-decode.h:
+
+../../.././sid/component/cgen-cpu/sh/sh2e-model.h:
+
+../../.././sid/component/cgen-cpu/sh/sh2a-fpu-defs.h:
+
+../../.././sid/component/cgen-cpu/sh/sh2a-fpu-decode.h:
+
+../../.././sid/component/cgen-cpu/sh/sh2a-fpu-model.h:
+
+../../.././sid/component/cgen-cpu/sh/sh2a-nofpu-defs.h:
+
+../../.././sid/component/cgen-cpu/sh/sh2a-nofpu-decode.h:
+
+../../.././sid/component/cgen-cpu/sh/sh2a-nofpu-model.h:
+
+../../.././sid/component/cgen-cpu/sh/sh3-defs.h:
+
+../../.././sid/component/cgen-cpu/sh/sh3-decode.h:
+
+../../.././sid/component/cgen-cpu/sh/sh3-model.h:
+
+../../.././sid/component/cgen-cpu/sh/sh3e-defs.h:
+
+../../.././sid/component/cgen-cpu/sh/sh3e-decode.h:
+
+../../.././sid/component/cgen-cpu/sh/sh3e-model.h:
+
+../../.././sid/component/cgen-cpu/sh/sh4-defs.h:
+
+../../.././sid/component/cgen-cpu/sh/sh4-decode.h:
+
+../../.././sid/component/cgen-cpu/sh/sh4-model.h:
+
+../../.././sid/component/cgen-cpu/sh/sh4-nofpu-defs.h:
+
+../../.././sid/component/cgen-cpu/sh/sh4-nofpu-decode.h:
+
+../../.././sid/component/cgen-cpu/sh/sh4-nofpu-model.h:
+
+../../.././sid/component/cgen-cpu/sh/sh4a-defs.h:
+
+../../.././sid/component/cgen-cpu/sh/sh4a-decode.h:
+
+../../.././sid/component/cgen-cpu/sh/sh4a-model.h:
+
+../../.././sid/component/cgen-cpu/sh/sh4a-nofpu-defs.h:
+
+../../.././sid/component/cgen-cpu/sh/sh4a-nofpu-decode.h:
+
+../../.././sid/component/cgen-cpu/sh/sh4a-nofpu-model.h:
+
+../../.././sid/component/cgen-cpu/sh/sh4al-defs.h:
+
+../../.././sid/component/cgen-cpu/sh/sh4al-decode.h:
+
+../../.././sid/component/cgen-cpu/sh/sh4al-model.h:
+
+../../.././sid/component/cgen-cpu/sh/sh5-compact-defs.h:
+
+../../.././sid/component/cgen-cpu/sh/sh5-compact-decode.h:
+
+../../.././sid/component/cgen-cpu/sh/sh5-compact-model.h:
+
+../../.././sid/component/cgen-cpu/sh/sh5-media-defs.h:
+
+../../.././sid/component/cgen-cpu/sh/sh5-media-decode.h:
+
+../../.././sid/component/cgen-cpu/sh/sh5-media-model.h:
+
+../../.././sid/component/cgen-cpu/../../../include/elf/sh.h:
+
+../../.././sid/component/cgen-cpu/../../../include/elf/reloc-macros.h:
+
+../../.././sid/component/cgen-cpu/sh/sh2-cpu.h:
+
+../../.././sid/component/cgen-cpu/sh/sh2e-cpu.h:
+
+../../.././sid/component/cgen-cpu/sh/sh2a-fpu-cpu.h:
+
+../../.././sid/component/cgen-cpu/sh/sh2a-nofpu-cpu.h:
+
+../../.././sid/component/cgen-cpu/sh/sh3-cpu.h:
+
+../../.././sid/component/cgen-cpu/sh/sh3e-cpu.h:
+
+../../.././sid/component/cgen-cpu/sh/sh4-nofpu-cpu.h:
+
+../../.././sid/component/cgen-cpu/sh/sh4-cpu.h:
+
+../../.././sid/component/cgen-cpu/sh/sh4a-nofpu-cpu.h:
+
+../../.././sid/component/cgen-cpu/sh/sh4a-cpu.h:
+
+../../.././sid/component/cgen-cpu/sh/sh4al-cpu.h:
+
+../../.././sid/component/cgen-cpu/sh/sh5-cpu.h:
+
+../../.././sid/component/cgen-cpu/sh/common_model.h:
+
+../../.././sid/component/cgen-cpu/sh/sh2e.h:
+
+../../.././sid/component/cgen-cpu/sh/sh2a_fpu.h:
+
+../../.././sid/component/cgen-cpu/sh/sh2a.h:
+
+../../.././sid/component/cgen-cpu/sh/sh_vliw.h:
+
+../../.././sid/component/cgen-cpu/sh/sh2a_model.h:
+
+../../.././sid/component/cgen-cpu/sh/sh2a_nofpu.h:
+
+../../.././sid/component/cgen-cpu/sh/sh3.h:
+
+../../.././sid/component/cgen-cpu/sh/sh3_model.h:
+
+../../.././sid/component/cgen-cpu/sh/sh3e.h:
+
+../../.././sid/component/cgen-cpu/sh/sh4.h:
+
+../../.././sid/component/cgen-cpu/sh/sh4_model.h:
+
+../../.././sid/component/cgen-cpu/sh/sh4_nofpu.h:
+
+../../.././sid/component/cgen-cpu/sh/sh4.h:
+
+../../.././sid/component/cgen-cpu/sh/sh4a.h:
+
+../../.././sid/component/cgen-cpu/sh/sh4a_model.h:
+
+../../.././sid/component/cgen-cpu/sh/sh4a_nofpu.h:
+
+../../.././sid/component/cgen-cpu/sh/sh4a.h:
+
+../../.././sid/component/cgen-cpu/sh/sh4al.h:
+
+../../.././sid/component/cgen-cpu/sh/sh4al_model.h:
+
+../../.././sid/component/cgen-cpu/sh/sh5.h:
+
+../../.././sid/component/cgen-cpu/sh/sh5_model.h:
+
+cgen-engine.h:
+
+../../.././sid/component/cgen-cpu/xstormy16/xstormy16.h:
+
+../../.././sid/component/cgen-cpu/xstormy16/xstormy16-desc.h:
+
+../../.././sid/component/cgen-cpu/xstormy16/xstormy16-defs.h:
+
+../../.././sid/component/cgen-cpu/xstormy16/xstormy16-decode.h:
+
+../../.././sid/component/cgen-cpu/xstormy16/xstormy16-cpu.h:
