@@ -3,7 +3,7 @@
 # This is a generated file - do not edit
 
 export HOST := UNIX
-export PREFIX := /home/adrian/_ETSIT-UPM/BECA-SimAntares/ecos/arm-pid/arm_pid_install
+export PREFIX := /home/adrian/_ETSIT-UPM/BECA-SimAntares/ecos/nuevo/nuevoecc_install
 export COMMAND_PREFIX := arm-eabi-
 export CC := $(COMMAND_PREFIX)gcc
 export OBJCOPY := $(COMMAND_PREFIX)objcopy
