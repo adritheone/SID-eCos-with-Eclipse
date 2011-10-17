@@ -1,0 +1,19 @@
+src/emulate.o.d:  \
+ /home/adrian/_ETSIT-UPM/BECA-SimAntares/ecos/ecos-3.0/packages/io/wallclock/v3_0/src/emulate.cxx \
+  /home/adrian/_ETSIT-UPM/BECA-SimAntares/ecos/nuevo/nuevoecc_install/include/pkgconf/wallclock.h \
+  /home/adrian/_ETSIT-UPM/BECA-SimAntares/ecos/nuevo/nuevoecc_install/include/pkgconf/kernel.h \
+  /home/adrian/_ETSIT-UPM/BECA-SimAntares/ecos/nuevo/nuevoecc_install/include/pkgconf/system.h \
+  /home/adrian/_ETSIT-UPM/BECA-SimAntares/ecos/nuevo/nuevoecc_install/include/pkgconf/hal.h \
+  /home/adrian/_ETSIT-UPM/BECA-SimAntares/ecos/nuevo/nuevoecc_install/include/pkgconf/hal_arm.h \
+  /home/adrian/_ETSIT-UPM/BECA-SimAntares/ecos/nuevo/nuevoecc_install/include/pkgconf/hal_arm_pid.h \
+  /home/adrian/_ETSIT-UPM/BECA-SimAntares/ecos/nuevo/nuevoecc_install/include/pkgconf/infra.h \
+  /home/adrian/_ETSIT-UPM/BECA-SimAntares/ecos/nuevo/nuevoecc_install/include/cyg/infra/cyg_type.h \
+  /home/adrian/_ETSIT-UPM/BECA-SimAntares/ecos/nuevo/nuevoecc_install/include/stddef.h \
+  /home/adrian/_ETSIT-UPM/BECA-SimAntares/ecos/gnutools/arm-eabi/bin/../lib/gcc/arm-eabi/4.3.2/include/stddef.h \
+  /home/adrian/_ETSIT-UPM/BECA-SimAntares/ecos/nuevo/nuevoecc_install/include/cyg/hal/basetype.h \
+  /home/adrian/_ETSIT-UPM/BECA-SimAntares/ecos/nuevo/nuevoecc_install/include/cyg/kernel/ktypes.h \
+  /home/adrian/_ETSIT-UPM/BECA-SimAntares/ecos/nuevo/nuevoecc_install/include/cyg/io/wallclock.hxx \
+  /home/adrian/_ETSIT-UPM/BECA-SimAntares/ecos/nuevo/nuevoecc_install/include/cyg/kernel/clock.hxx \
+  /home/adrian/_ETSIT-UPM/BECA-SimAntares/ecos/nuevo/nuevoecc_install/include/cyg/infra/cyg_ass.h \
+  /home/adrian/_ETSIT-UPM/BECA-SimAntares/ecos/nuevo/nuevoecc_install/include/cyg/infra/clist.hxx \
+  /home/adrian/_ETSIT-UPM/BECA-SimAntares/ecos/nuevo/nuevoecc_install/include/cyg/kernel/clock.inl
