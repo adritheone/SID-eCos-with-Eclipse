@@ -1,0 +1,5 @@
+	HOW TO RUN SID
+$path_to_sid_instalation/bin/sid arm-pid7t.conf
+
+arm-pid7t.conf is a configuration file given in the source directory
+
